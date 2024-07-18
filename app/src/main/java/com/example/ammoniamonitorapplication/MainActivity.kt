@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
             var newIp = etIp.text.toString()
-            val url = "http://$newIp/IoT/FinalProject/index.php"
+            val url = "http://$newIp/IoT/final-project-iot/index.php"
             webView.settings.javaScriptEnabled = true
             webView.webViewClient = WebViewClient()
 
